@@ -1,12 +1,39 @@
-# React + Vite
+# GitHub HowTO
+## first user
+```bash
+>> git init # מאתחל את הפרויקט כפרויקט עם גיט מקומי - פעם אחת
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+>> git add .  # בכל שינוי
+>> git commit -m "..." # בכל שינוי
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+>> git remote add origin <github_url> # פעם אחת
+>> git branch -M main # פעם אחת
+>> git push -u origin main # פעם אחת
 
-## Expanding the ESLint configuration
+>> git push # בכל שינוי - דחיפה של השינויים שעשינו לגיטהאב
+>> git fetch # בדיקה האם יש הבדלים בין הפרויקט המקומי לגיטהאב
+>> git pull # משיכה של כל השינויים מהגיטהאב לפרויקט המקומי
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+## second user
+```bash
+>> git clone <github_url> # מעתיק פרויקט קיים מהגיטהאב למחשב המקומי - פעם אחת
+
+>> git add .  # בכל שינוי
+>> git commit -m "..." # בכל שינוי
+
+>> git push # בכל שינוי - דחיפה של השינויים שעשינו לגיטהאב
+>> git fetch # בדיקה האם יש הבדלים בין הפרויקט המקומי לגיטהאב
+>> git pull # משיכה של כל השינויים מהגיטהאב לפרויקט המקומי
+```
+
+## generally
+- `git push`
+- there is merge conflict:
+ - `git fetch` 
+ - `git pull` 
+ - in vscode fix conflict
+ - `git commit -am ...`
+ - `git push`
