@@ -32,8 +32,8 @@
 ## generally
 - `git push`
 - there is merge conflict:
- - `git fetch` 
- - `git pull` 
+  - `git fetch` 
+  - `git pull` 
  - in vscode fix conflict
- - `git commit -am ...`
- - `git push`
+   - `git commit -am ...`
+   - `git push`
